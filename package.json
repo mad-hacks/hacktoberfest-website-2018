@@ -1,0 +1,23 @@
+{
+  "name": "hacktoberfest-website",
+  "version": "1.0.0",
+  "description": "Hacktoberfest-Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mad-hacks/hacktoberfest-website.git"
+  },
+  "keywords": [],
+  "author": "James George <jamesgeorge998001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mad-hacks/hacktoberfest-website/issues"
+  },
+  "homepage": "https://github.com/mad-hacks/hacktoberfest-website#readme",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
