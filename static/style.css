@@ -5,9 +5,10 @@
     background-color:#582D41;
 }
 
-.container{
-    margin:0px 0px 0px 0px;
-}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 
 #demo{
     font-family: Roboto;
