@@ -1,5 +1,31 @@
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     outline: none;
+    background-color:#582D41;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+#demo{
+    font-family: Roboto;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 640px;
+    top: 410px;
+}
+
+#demo1{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 670px;
+    top: 380px;
 }
