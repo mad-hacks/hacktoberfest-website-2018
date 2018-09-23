@@ -1,4 +1,5 @@
-/*
+
+
 // Count Down Date
 var countDownDate = new Date("Oct 1, 2018 00:00:00").getTime();
 
@@ -42,6 +43,4 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "00 00 00 00";
     }
 }, 1000);
-*/
 
-document.getElementById("demo").innerHTML = '<img src="static/images/4RegisterNowButton.png" width = 300px>';

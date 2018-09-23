@@ -29,3 +29,13 @@ body{
     left: 670px;
     top: 380px;
 }
+
+#head{
+    position: absolute;
+    top: 0px;
+}
+#footer{
+    position: relative;
+    top: 900px;
+
+}
