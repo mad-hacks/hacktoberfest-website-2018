@@ -16,7 +16,7 @@ body{
     font-weight: bold;
     color: white;
     position: relative;
-    left: 670px;
+    left: 640px;
 }
 
 #demo1{
@@ -25,15 +25,15 @@ body{
     font-weight: bold;
     color: white;
     position: relative;
-    left: 675px;
+    left: 670px;
 }
 
 #head{
     position: absolute;
     top: 300px;
+ 
 }
 #footer{
     position: relative;
     top: 1200px;
-
-}
+    max-width: 100%;

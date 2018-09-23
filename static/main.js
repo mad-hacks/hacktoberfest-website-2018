@@ -44,3 +44,12 @@ var x = setInterval(function() {
     }
 }, 1000);
 
+document.getElementById("fb").addEventListener("mouseover", function(){document.getElementById("fb").src="static/images/fbb2.png";})
+document.getElementById("fb").addEventListener("mouseout", function(){document.getElementById("fb").src="static/images/fbb.png";})
+
+document.getElementById("twit").addEventListener("mouseover", function(){document.getElementById("twit").src="static/images/twitter2.png";})
+document.getElementById("twit").addEventListener("mouseout", function(){document.getElementById("twit").src="static/images/twitter.png";})
+
+document.getElementById("lin").addEventListener("mouseover", function(){document.getElementById("lin").src="static/images/lin2.png";})
+document.getElementById("lin").addEventListener("mouseout", function(){document.getElementById("lin").src="static/images/lin.png";})
+
