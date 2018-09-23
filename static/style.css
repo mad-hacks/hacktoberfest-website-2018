@@ -16,8 +16,7 @@ body{
     font-weight: bold;
     color: white;
     position: relative;
-    left: 640px;
-    top: 410px;
+    left: 670px;
 }
 
 #demo1{
@@ -26,16 +25,15 @@ body{
     font-weight: bold;
     color: white;
     position: relative;
-    left: 670px;
-    top: 380px;
+    left: 675px;
 }
 
 #head{
     position: absolute;
-    top: 0px;
+    top: 300px;
 }
 #footer{
     position: relative;
-    top: 900px;
+    top: 1200px;
 
 }
