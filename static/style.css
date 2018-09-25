@@ -10,12 +10,11 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
   }
-
 #demo{
     font-family: Roboto;
     font-size: 7vw;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     position: absolute;
     top: 32vw;
     left: 45vw;
@@ -33,34 +32,120 @@ body{
     
 }
 
-
 #register{
     position: absolute;
     top: 25vw;
     left: 45vw;
     min-width: 67%;
 }
+.registerbutton{
+    background-color: #01ffff;
+    border: none;
+    color: rgb(7, 30, 105);
+    padding: 1vw 2vw;
+    box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 1.9vw;
+    font-weight: bold;
+    font-family: Roboto;
+    cursor: pointer;
+    min-width: 70%;
+    
+    }
+    .registerbutton:hover {
+    background-color: rgb(253, 187, 45);
+    color:  #011aff;
+    }
+    
+.detailbox{
+    
+    float: left;
+    padding:2vw 4vw 2vw 4vw;
+ 
+}
+.detailbox p{
+    color:white;
+    font-size: 1vw;
+}
+.detailbox h5{
+    color:rgb(252, 198, 49);
+    font-size: 1.5vw;
+}
+
+.details{
+  position: relative;
+  left:6.5vw;
+}
+
+.row{
+    width: 100vw;
+    position: relative;
+    left: 7vw;
+}
+.agenda{
+    text-align: center;
+    height: 20vw;
+    width: 25vw;
+    display: inline;
+    background-color: #3f212f;
+    margin: 2vw 2vw 2vw 2vw;
+    border-radius: 2vw;
+    color: white;
+    float: left;
+    z-index: 0;
+}
+
+
+.agenda h5{
+color: rgb(255, 136, 57);
+background-color: #3f212f;
+position: relative;
+top:4vw;
+padding: 0 2vw 0 2vw;
+font-size: 2vw;
+z-index: 1;
+}
+.agenda h4{
+    color: rgb(57, 215, 255);
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 5%;
+    }
+ .agenda h3{
+    color: rgb(57, 215, 255);
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 34%;
+    z-index: 0;
+    }
+.agenda h2{
+    color: rgb(57, 215, 255);
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 63%;
+    }
+.agenda p{
+    color: white;
+    background-color: #3f212f;
+    position: relative;
+   text-align: center;
+    top:45%;
+    font-size: 1.6vw;
+    z-index: 1;
+    }
+    
+/*
+
 #footer{
     position: absolute;
     top:100vw;
     width: 100%;
 }
-.registerbutton{
-background-color: #01ffff;
-border: none;
-color: rgb(7, 30, 105);
-padding: 1vw 2vw;
-box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
-border-radius: 2vw;
-text-align: center;
-font-size: 1.9vw;
-font-weight: bold;
-font-family: Roboto;
-cursor: pointer;
-min-width: 70%;
 
-}
-.registerbutton:hover {
-background-color: rgb(253, 187, 45);
-color:  #011aff;
-}

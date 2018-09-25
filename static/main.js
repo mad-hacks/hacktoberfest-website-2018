@@ -50,3 +50,4 @@ document.getElementById("twit").addEventListener("mouseout", function(){document
 
 document.getElementById("lin").addEventListener("mouseover", function(){document.getElementById("lin").src="static/images/lin2.png";})
 document.getElementById("lin").addEventListener("mouseout", function(){document.getElementById("lin").src="static/images/lin.png";})
+
