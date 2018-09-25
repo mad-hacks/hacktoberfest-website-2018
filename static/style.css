@@ -3,6 +3,7 @@
     margin: 0px 0px 0px 0px;
     outline: none;
     background-color:#582D41;
+    
 }
 
 body{
@@ -12,20 +13,54 @@ body{
 
 #demo{
     font-family: Roboto;
-    font-size: 90px;
+    font-size: 7vw;
     font-weight: bold;
     color: white;
-    position: relative;
-    left: 640px;
-    top: 410px;
+    position: absolute;
+    top: 32vw;
+    left: 45vw;
+    
 }
 
 #demo1{
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: bold;
-    color: white;
-    position: relative;
-    left: 670px;
-    top: 380px;
+    color: #0af7ff;
+    position: absolute;
+    top: 41vw;
+    left: 48vw;
+    
+}
+
+
+#register{
+    position: absolute;
+    top: 25vw;
+    left: 45vw;
+    min-width: 67%;
+}
+#footer{
+    position: absolute;
+    top:100vw;
+    width: 100%;
+}
+.registerbutton{
+background-color: #01ffff;
+border: none;
+color: rgb(7, 30, 105);
+padding: 1vw 2vw;
+box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
+border-radius: 2vw;
+text-align: center;
+font-size: 1.9vw;
+font-weight: bold;
+font-family: Roboto;
+cursor: pointer;
+min-width: 70%;
+
+}
+.registerbutton:hover {
+background-color: rgb(253, 187, 45);
+color:  #011aff;
 }
