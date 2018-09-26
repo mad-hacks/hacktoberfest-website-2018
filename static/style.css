@@ -8,6 +8,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+     background-color:#582D41;
   }
 
 #demo{
@@ -29,3 +30,61 @@ body{
     left: 670px;
     top: 380px;
 }
+footer {
+    position: absolute;
+    top:100vw;
+    width: 100%;
+}
+.footer__copyright{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#rr:hover {
+    background-color: #e4e001c7;
+}
+
+#fb {
+    background-color: #21ffff;
+    border: 0;
+    border-radius: 5px;
+    color: #411e2f;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#twit {
+    background-color: #21ffff;
+    border: 0;
+    border-radius: 5px;
+    color: #411e2f;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+#lin {
+    background-color: #21ffff;
+    border: 0;
+    border-radius: 5px;
+    color: #411e2f;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#twit:hover {
+    opacity: 0.7;
+}
+    #fb:hover {
+    opacity: 0.7;
+    }
