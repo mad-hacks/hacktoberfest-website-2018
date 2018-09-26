@@ -6,39 +6,121 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>&lt;/ Hacktoberfest-2018 &gt;</title>
     <!-- Bootstrap 4 and Font awesome 5 CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   	
-   	<!-- Linking up custom CSS --> 
+	<!-- Linking up custom CSS --> 
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
 		<!-- Initial section -->
 		<div>
+			
+
+			<img src="static/images/1MainBackground.png"style="width: 100%; z-index: -1;"alt='MAIN LOGO'/>
+			
 			<p id="demo"></p>
 			<p id="demo1"></p>
 
-		</div>
+			<div id="register">
+		    <button class="registerbutton">Register Now</button>
+			</div>
+		</div> 
 		<!-- End -->
-		
+	
 		<!-- About Hacktoberfest section -->	
-		<div>
-		
-		</div>
+	<div id='about' style='text-align: center;'>
+				
+		<h1 style="color:white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 3.5vw;">What is Hacktoberfest?</h1>
+		<p style="color:rgb(252, 198, 49);font-size: 2vw;font-family: Roboto;font-style: italic">Hacktoberfest is a month-long celebration of open source software.</p>
+
+		<div class='details'>
+			<div class="detailbox">
+			<img src="static/images/6Who-Icon.svg" id='Who' alt="Who" style="width: 8vw;">
+				<h5>Who</h5>
+				<p>Hacktoberfest is open to<br>everyone in our global<br>community.</p>
+			</div>
+			
+			<div class="detailbox">
+			<img src="static/images/7Where-Icon.svg" id='Where' alt="Where" style="width: 8vw;">
+				<h5>Where</h5>
+				<p>Amal Jyothi<br>College of Engineering,<br>Kanjirappally.</p>	
+			</div>
+
+			<div class="detailbox">
+			<img src="static\images\github-logo-icon-22.png" id='How' alt='How' style="width: 8vw;" >
+				<h5>How</h5>
+				<p>Make Five pull requests<br>to GitHub-hosted<br>repositories.</p>
+			</div>
+
+			<div class="detailbox">
+			<img src="static\images\9When-Icon.svg" id='When' alt='When' style="width: 8vw;" >
+				<h5>When</h5>
+				<p>You can sign up anytime<br>between October 1<br>and October 31.</p>
+			</div>
+		</div><br><br><br>
+	</div>
 		<!-- End -->
 		
 		<!-- Meetup Agenda section -->
-		<div>
+		<div class='meetupagenda' style='text-align: center;'>
+			<h1 style="color:white;font-family: 'Montserrat'; font-size: 3.5vw;"><br>MeetUp Agenda</h1>
+			<div class='row1'>	
+				<div class="agenda">
+					<h5>Introduction</h5>
+					<hr>
+					<p>The Celebration, Prizes, <br>& Instructions</p>
+				</div>
+
+				<div class="agenda">	
+					<h5>A Talk on GitHub</h5>
+					<hr>
+					<p>Understand How to Work<br>on GitHub</p>
+				</div>
+	
+				<div class="agenda">	
+					<h5>Live Coding Session</h5>
+					<hr>
+					<p>Young Minds demonstrate<br> a Live Coding Session</p>
+				</div>
 			
-		</div>
+			</div>
+			<div class='row2'>		
+				
+				<div class="agenda">
+					<h5>Another Session</h5>
+					<hr>
+					<p>Session Description </p>
+				</div>
+				
+				<div class="agenda">	
+					<h5>Hack Time</h5>
+					<hr>
+					<p>Pull-Request Time </p>
+				</div>
+	
+				<div class="agenda">
+					<h5>Snack Time</h5>
+					<hr>
+					<p>Fooooooood!</p>
+				</div>
+			</div>
+		</div><br>
 		<!-- End -->
 
 		<!-- Footer section -->
-		<div>
-			
-		</div>
+
+				<div id='footer'><center>
+						<img src="static\images\mainlogo.png" style="width:500px; max-width:60%; margin-top:20%;" alt="HACKTOBERFEST LOGO">
+						<br><br><br>
+						<button class="btn"><i class="fab fa-facebook-f" style='color:#582D41; background-color:aqua'></i>&ensp;  Share on Facebook</button>
+						<button class="btn"><i class="fab fa-twitter" style='color:#582D41; background-color:aqua'></i>&ensp;  Share on Twitter</button>
+						<br><br>
+						<img src="static/images/logos.png" style="width: 30%;" alt="Footer Logos">
+						<br><img src="static/images/Footer.png" style="width: 20%;" alt="Footer Logos">
+				</div></center>
 		<!-- End -->
-    
+	
+		
 	<!-- Bootstrap dependencies -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
