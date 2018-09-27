@@ -57,7 +57,7 @@ body{
     
 #about{
     padding-top:120px;
-    padding-bottom:150px;
+    padding-bottom:150px
 }
 
 .details{
@@ -65,8 +65,9 @@ body{
 }
 
 .detailbox{
+    font-family: Montserrat;
     float: left;
-    padding:2vw 4vw 2vw 4vw;
+    padding:2vw 3vw 2vw 3vw;
 }
 
 .detailbox p{
@@ -179,7 +180,7 @@ hr {
     /*color: #582D41;*/
     width: 220px;
     padding: 14px 10px;
-    font-size: 16px;
+    font-size: 2.7vw;
     cursor: pointer;
     margin-left:5px;
 }
@@ -198,4 +199,114 @@ hr {
 h4{
     position:relative;
     padding-top:1vw;
+}
+
+.footer-img{
+    width:500px; 
+    max-width:60%;
+    margin-top:8%;
+}
+
+@media screen and (max-width: 445px){
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meetupagenda{
+        display: flex;
+        flex-direction: column;   
+    }
+}
+
+@media screen and (max-width: 455px){
+    .btn{
+        font-size: 10px;
+        width: 180px;
+    }
+
+    .detailbox p{
+        color:white;
+        font-size: 2vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .detailbox h5{
+        color:rgb(252, 198, 49);
+        font-size: 1.9vh;
+        padding-top: 20px;
+    }
+
+    .registerbutton{
+        font-size: 2.7vw;
+    }
+    
+    /* .meetupagenda{
+        margin-top: -40vh;
+        margin-bottom: 20vh;
+    } */
+
+    .meetupagenda{
+        display: none;
+    }
+
+    /* .agenda{
+        margin-left: auto;
+        margin-right: 45vw;
+        height: 28vw;
+    } */
+
+    .row1{
+        margin-top: -7vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row2{
+        margin-top: -2vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-img{
+        margin-top: 72%;
+    }
+
+    #about{
+        padding-top: 40px;
+    }
+
+    #footer{
+        margin-top: -60vh;
+    }
+
+    #about h1{
+        font-size: 3.8vw;
+    }
+
+    #about p{
+        font-size: 2.3vw;
+    }
+
+    /*.agenda h5{
+        font-size: 3.8vw;
+    }
+    
+    .agenda h4{
+        font-size: 3.8vw;
+    }
+    
+    .agenda h3{
+        font-size: 3.8vw;
+    }
+    
+    .agenda h2{
+        font-size: 3.8vw;
+    }
+    
+    .agenda p{
+        font-size: 3.6vw;
+    } */
+
 }
