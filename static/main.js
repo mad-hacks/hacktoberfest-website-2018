@@ -33,11 +33,21 @@ var x = setInterval(function() {
     }
     
     // Output the result
-    document.getElementById("demo").innerHTML = days + " " + '<img src="static/images/3CountDown Divider.png" width = 4px>' + " " + hours + " " + '<img src="static/images/3CountDown Divider.png" width = 4px>' + " " + minutes + " " + '<img src="static/images/3CountDown Divider.png" width = 4px>' + " " + seconds;
-    document.getElementById("demo1").innerHTML ="DAYS"+"&emsp;&emsp;&emsp;&emsp;&ensp;"+"HOURS"+"&emsp;&emsp;&emsp;&ensp;&nbsp"+"MINUTES"+"&emsp;&emsp;&emsp;"+"SECONDS";
+    document.getElementById("demo").innerHTML = days + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + hours + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + minutes + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + seconds;
+    document.getElementById("demo1").innerHTML ="Days"+"&emsp;&emsp;&emsp;&ensp;"+"Hours"+"&emsp;&emsp;&emsp;"+"Minutes"+"&emsp;&emsp;"+"Seconds";
     // When the count down is over
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "00 00 00 00";
     }
 }, 1000);
+
+document.getElementById("fb").addEventListener("mouseover", function(){document.getElementById("fb").src="static/images/fbb2.png";})
+document.getElementById("fb").addEventListener("mouseout", function(){document.getElementById("fb").src="static/images/fbb.png";})
+
+document.getElementById("twit").addEventListener("mouseover", function(){document.getElementById("twit").src="static/images/twitter2.png";})
+document.getElementById("twit").addEventListener("mouseout", function(){document.getElementById("twit").src="static/images/twitter.png";})
+
+document.getElementById("lin").addEventListener("mouseover", function(){document.getElementById("lin").src="static/images/lin2.png";})
+document.getElementById("lin").addEventListener("mouseout", function(){document.getElementById("lin").src="static/images/lin.png";})
+

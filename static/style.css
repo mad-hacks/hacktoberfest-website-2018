@@ -3,63 +3,353 @@
     margin: 0px 0px 0px 0px;
     outline: none;
     background-color:#582D41;
-    
 }
 
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-  }
+}
 
 #demo{
     font-family: Roboto;
-    font-size: 75px;
-    font-weight: bold;
-    color: white;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #ffffff;
     position: absolute;
-    left: 800px;
-    top: 500px;
+    top: 36vw;
+    left: 56vw;
 }
 
 #demo1{
     font-family: Roboto;
-    font-size: 15px;
-    font-weight: lighter;
-    color: rgb(105, 226, 226);
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #FF9A56;
     position: absolute;
-    left: 815px;
-    top: 600px;
-    
-}
-#mainlogo{
-position: absolute;
-left: 200px;
-top: 300px;
-z-index: 1;
+    top: 41vw;
+    left: 57vw;
 }
 
 #register{
-position: absolute;
-left: 940px;
-top: 430px;
-z-index: 2;
+    position: absolute;
+    top: 27vw;
+    left: 58vw;
+    min-width: 50%;
 }
 
 .registerbutton{
-background-color: #01ffff;
-border: none;
-color: rgb(7, 30, 105);
-padding: 10px 15px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-border-radius: 8px;
-text-align: center;
-font-size: 16px;
-font-weight: bold;
-font-family: Roboto;
-cursor: pointer;
-transition-duration: 0.4s;
+    background-color: #01ffff;
+    border: none;
+    color: #582D41;
+    padding: 0.5vw 2vw 0.7vw 2vw;
+    box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 30%;
 }
+
 .registerbutton:hover {
-background-color: rgb(7, 30, 105);
-color:  #01ffff;
+    background-color: #FFFFFF;
+}
+    
+#about{
+    padding-top:120px;
+    padding-bottom:150px
+}
+
+.caption{
+    color:white;
+    font-family: 'Montserrat',sans-serif; 
+    font-size: 3.5vw;
+}
+
+.desc{
+    color:rgb(252, 198, 49);
+    font-size: 2vw;
+    font-family: 'Montserrat';
+    font-style: italic;
+}
+
+.details{
+    padding: 30px;
+}
+
+.detailbox{
+    font-family: Montserrat;
+    float: left;
+    padding:2vw 3vw 2vw 3vw;
+}
+
+.detailbox p{
+    color:white;
+    font-size: 1.3vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.detailbox h5{
+    color:rgb(252, 198, 49);
+    font-size: 1.9vw;
+    padding-top: 20px;
+}
+
+.details{
+  position: relative;
+}
+
+.row1{
+    width: 100vw;
+    position: relative;
+    top: 100px;
+    left: 7vw;
+}
+
+.row2{
+    width: 100vw;
+    position: relative;
+    top: 100px;
+    left: 7vw;
+    padding-top:10px;
+}
+
+.agenda{
+    text-align: center;
+    height: 16vw;
+    width: 25vw;
+    display: inline;
+    background-color: #3f212f;
+    margin: 2vw 2vw 2vw 2vw;
+    border-radius: 1vw;
+    color: white;
+    float: left;
+    z-index: 0;
+}
+
+.agenda h5{
+    color: rgb(255, 136, 57);
+    background-color: #3f212f;
+    position: relative;
+    top:2.5vw;
+    padding: 0 2vw 0 2vw;
+    font-size: 2vw;
+    z-index: 1;
+}
+
+.agenda h4{
+    color: #01FFFF;
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 5%;
+}
+
+.agenda h3{
+    color: #01FFFF;
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 34%;
+    z-index: 0;
+}
+
+.agenda h2{
+    color: #01FFFF;
+    background-color: #3f212f;
+    position: absolute;
+    top:42%;
+    font-size: 2vw;
+    left: 63%;
+}
+
+.agenda p{
+    color: white;
+    background-color: #3f212f;
+    position: relative;
+    text-align: center;
+    top:10%;
+    font-size: 1.6vw;
+    z-index: 1;
+}
+
+hr { 
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: 40%;
+    margin-right:40%;
+    margin-top: 15%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #01FFFF;
+}
+
+.btn {
+    background-color:#01FFFF;
+    border: none;
+    /*color: #582D41;*/
+    width: 220px;
+    padding: 8px;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-left:5px;
+}
+
+.meetupagenda {
+    padding-top:90px;
+    padding-bottom:0px;
+    height:10px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
+}
+
+h4{
+    position:relative;
+    padding-top:1vw;
+}
+
+.details-img{
+    width: 8vw;
+}
+
+.footer-img{
+    width:500px; 
+    max-width:60%;
+    margin-top:8%;
+}
+
+@media only screen and (max-width: 1050px){
+    #about{
+        padding-top: 30px;
+    }
+
+    .footer-img{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .footer-img{
+        margin-top: 32%;
+    }
+
+    .btn{
+        font-size: .9em;
+        width: 130px;
+        padding: 6px;
+    }
+
+    .meetupagenda{
+        padding-top: 0px;
+    }
+    
+    #about{
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 455px){
+    .btn{
+        font-size: .7em;
+        width: 120px;
+        padding: 6px;
+    }
+
+    .caption{
+        font-size: 3.7vw;
+    }
+
+    .desc{
+        font-size: 3.2vw;
+    }
+    
+    .detailbox h5{
+        font-size: 4vw;
+    }
+
+    .details-img{
+        width: 14vw;
+    }
+
+    .registerbutton{
+        font-size: 2.7vw;
+    }
+
+    .meetupagenda{
+        display: none;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row1{
+        margin-top: -7vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row2{
+        margin-top: -2vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-img{
+        margin-top: 28%;
+    }
+
+    #about{
+        padding-top: 40px;
+    }
+
+    #footer{
+        margin-top: -60vh;
+    }
+
+    #about h1{
+        font-size: 3.8vw;
+    }
+
+    #about .details-desc{
+        font-size: 3.9vw;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .btn{
+        font-size: .5em;
+        width: 140px;
+        padding: 10px 8px;
+    }
+
+    .caption{
+        font-size: 3.7vw;
+    }
+
+    .desc{
+        font-size: 3.2vw;
+    }
+    
+    .footer-img{
+        margin-top: 52%;
+    }
+
+    .detailbox p{
+        font-size: 2.5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .detailbox h5{
+        font-size: 2vw;
+        padding-top: 10px;
+    }
 }
