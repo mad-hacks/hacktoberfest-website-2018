@@ -2,6 +2,9 @@
 
 > Website for the Hacktoberfest event by Mad-Hacks.
 
+Visit the below link
+[http://hacktober.madhacks.co/](hacktoberfest)
+
 ## Instructions
 
 * Clone the repository.
