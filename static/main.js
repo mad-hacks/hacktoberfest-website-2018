@@ -42,12 +42,3 @@ let x = setInterval(() => {
     }
 }, 1000);
 
-document.getElementById("fb").addEventListener("mouseover", () => {document.getElementById("fb").src="static/images/fbb2.png";})
-document.getElementById("fb").addEventListener("mouseout", () => {document.getElementById("fb").src="static/images/fbb.png";})
-
-document.getElementById("twit").addEventListener("mouseover", () => {document.getElementById("twit").src="static/images/twitter2.png";})
-document.getElementById("twit").addEventListener("mouseout", () => {document.getElementById("twit").src="static/images/twitter.png";})
-
-document.getElementById("lin").addEventListener("mouseover", () => {document.getElementById("lin").src="static/images/lin2.png";})
-document.getElementById("lin").addEventListener("mouseout", () => {document.getElementById("lin").src="static/images/lin.png";})
-

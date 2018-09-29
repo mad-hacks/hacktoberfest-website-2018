@@ -213,7 +213,6 @@ hr {
 }
 
 .btn:hover {
-    background-color: #fff;
     box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
 }
 
@@ -230,6 +229,14 @@ h4{
     width:500px; 
     max-width:60%;
     margin-top:8%;
+}
+
+.sponsors-logo{
+    width: 30%;
+}
+
+.footer-text{
+    width: 20%;
 }
 
 @media only screen and (max-width: 1050px){
@@ -270,6 +277,14 @@ h4{
     .registerbutton{
         padding: 8px;
         font-size: 2.7vw;
+    }
+
+    .sponsors-logo{
+        width: 50%;
+    }550
+
+    .footer-text{
+        width: 40%;
     }
 }
 
@@ -384,6 +399,20 @@ h4{
         font-size: 4vw;
         padding-top: 10px;
     }
+}
+
+@media only screen and (max-width: 350px){
+  .footer-img{
+      margin-top: 45%;
+  }  
+
+  .footer-text{
+      width: 70%;
+  }
+
+  .sponsors-logo{
+      width: 60%;
+  }
 }
 
 @media only screen and (min-height: 670px){
