@@ -400,6 +400,12 @@ h4{
         padding-top: 10px;
     }
 }
+/* Special case */
+@media only screen and (max-width: 360px), screen and (max-height: 732px){
+    .footer-img{
+        margin-top: 50%;
+    }
+}
 
 @media only screen and (max-width: 350px){
   .footer-img{
