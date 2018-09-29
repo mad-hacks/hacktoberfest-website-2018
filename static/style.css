@@ -198,7 +198,7 @@ hr {
 .btn {
     background-color:#01FFFF;
     border: none;
-    /*color: #582D41;*/
+    color: #582D41;
     width: 220px;
     padding: 8px;
     font-size: 1.4em;
@@ -214,6 +214,7 @@ hr {
 
 .btn:hover {
     box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
+    color: #582D41;
 }
 
 h4{
