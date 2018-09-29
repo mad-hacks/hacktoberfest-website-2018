@@ -4,7 +4,7 @@
 
 Visit the below link:
 
-[http://hacktober.madhacks.co/](hacktoberfest)
+[hacktober.madhacks.co](http://hacktober.madhacks.co/)
 
 ## Instructions
 
