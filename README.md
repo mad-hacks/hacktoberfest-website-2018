@@ -2,7 +2,8 @@
 
 > Website for the Hacktoberfest event by Mad-Hacks.
 
-Visit the below link
+Visit the below link:
+
 [http://hacktober.madhacks.co/](hacktoberfest)
 
 ## Instructions
