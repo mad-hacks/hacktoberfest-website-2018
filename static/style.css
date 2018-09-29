@@ -30,6 +30,11 @@ body{
     left: 57vw;
 }
 
+.countdown-timer{
+    width: 0.1vw; 
+    height: 5vw;
+}
+
 #register{
     position: absolute;
     top: 27vw;
@@ -237,6 +242,12 @@ h4{
     }
 }
 
+@media only screen and (max-width: 870px){
+    #demo{
+        font-size: 3.8vw;
+    }
+}
+
 @media only screen and (max-width: 800px){
     .footer-img{
         margin-top: 32%;
@@ -259,6 +270,12 @@ h4{
     .registerbutton{
         padding: 8px;
         font-size: 2.7vw;
+    }
+}
+
+@media only screen and (max-width: 595px){
+    .countdown-timer{
+        width: .2vw;
     }
 }
 
@@ -332,6 +349,12 @@ h4{
     }
 }
 
+@media only screen and (max-width: 435px){
+    .countdown-timer{
+        width: .25vw;
+    }
+}
+
 @media only screen and (max-width: 375px){
     .btn{
         font-size: .7em;
@@ -384,5 +407,18 @@ h4{
 @media only screen and (min-height: 865px){
     .footer-img{
         margin-top: 80%;
+    }
+}
+
+@media only screen and (min-width: 1280px), screen and (min-height: 700px){
+    .footer-img{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1400px), screen and (min-height: 800px){
+    .footer-img{
+        margin-top: 60%;
+        margin-left: -85vw;
     }
 }

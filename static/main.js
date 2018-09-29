@@ -33,7 +33,7 @@ let x = setInterval(() => {
     }
     
     // Output the result
-    document.getElementById("demo").innerHTML = days + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + hours + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + minutes + " " + '<img src="static/images/3CountDown Divider.png" style="width: 0.1vw; height: 5vw;">' + " " + seconds;
+    document.getElementById("demo").innerHTML = days + " " + '<img class="countdown-timer" src="static/images/3CountDown Divider.png">' + " " + hours + " " + '<img src="static/images/3CountDown Divider.png" class="countdown-timer">' + " " + minutes + " " + '<img class="countdown-timer" src="static/images/3CountDown Divider.png">' + " " + seconds;
     document.getElementById("demo1").innerHTML ="Days"+"&emsp;&emsp;&emsp;&ensp;"+"Hours"+"&emsp;&emsp;&emsp;"+"Minutes"+"&emsp;&emsp;"+"Seconds";
     // When the count down is over
     if (distance < 0) {
