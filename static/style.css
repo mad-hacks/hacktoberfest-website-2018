@@ -41,7 +41,7 @@ body{
     background-color: #01ffff;
     border: none;
     color: #582D41;
-    padding: 0.5vw 2vw 0.7vw 2vw;
+    padding: 12px;
     box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2), 0 0.5vw 1.5vw 0 rgba(0,0,0,0.19);
     border-radius: 5px;
     text-align: center;
@@ -52,8 +52,11 @@ body{
 }
 
 .registerbutton:hover {
-    background-color: #FFFFFF;
+    background-color: #fff;
+    text-decoration: none;
+
 }
+
     
 #about{
     padding-top:120px;
@@ -252,6 +255,11 @@ h4{
     #about{
         padding-top: 70px;
     }
+
+    .registerbutton{
+        padding: 8px;
+        font-size: 2.7vw;
+    }
 }
 
 @media only screen and (max-width: 455px){
@@ -278,7 +286,8 @@ h4{
     }
 
     .registerbutton{
-        font-size: 2.7vw;
+        font-size: 2.3vw;
+        padding: 6px;
     }
 
     .meetupagenda{
